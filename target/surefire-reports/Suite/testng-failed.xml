@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="2" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="com.testPackage.End_To_End_Validation_Test">
+        <methods>
+          <include name="End_To_End"/>
+          <include name="browserinitializer"/>
+          <include name="openApplication"/>
+          <include name="starttestCase"/>
+          <include name="takesFailedScereenshotTasteCase"/>
+          <include name="endtestCase"/>
+          <include name="logGenerator"/>
+        </methods>
+      </class> <!-- com.testPackage.End_To_End_Validation_Test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
